@@ -175,7 +175,7 @@ if page == "🏠 Vue Générale":
     st.markdown('<div class="page-subtitle">Analyse du catalogue Netflix — Vue d\'ensemble</div>', unsafe_allow_html=True)
 
     # KPIs
-    col1, col2, col3, col4, col5 , col6 = st.columns(6)
+    col1, col2, col3 = st.columns(3)
     with col1:
         st.metric("Total Titres", f"{len(dff):,}")
     with col2:
@@ -184,6 +184,8 @@ if page == "🏠 Vue Générale":
     with col3:
         n_series = len(dff[dff['type'] == 'TV Show'])
         st.metric("Séries", f"{n_series:,}")
+    
+    col4, col5, col6, col7 = st.columns(4)
     with col4:
         all_countriess = dff['country'].str.split(',').explode().str.strip()
         n_countries = all_countriess.nunique()
@@ -195,6 +197,10 @@ if page == "🏠 Vue Générale":
         all_directors = dff['director'].str.split(',').explode().str.strip()
         n_directors = all_directors.nunique()
         st.metric("Nb Réalisateurs", f"{n_directors}")
+    with col7:
+        all_actors = dff['cast'].str.split(',').explode().str.strip()
+        n_actors = all_actors.nunique()
+        st.metric("Nb acteurs", f"{n_actors}")
 
     st.markdown("---")
 
