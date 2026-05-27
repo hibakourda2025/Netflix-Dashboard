@@ -1,7 +1,5 @@
 # 🎬 Netflix Analytics Dashboard
 
-<p align="center">
-  <img src="images/1-Vue_Générale.png" alt="Vue Générale" width="80%"/>
 </p>
 
 <p align="center">
@@ -20,14 +18,27 @@
 
 ---
 
+ 
 ## 🖼️ Aperçu des pages
-
-| Page | Description | Aperçu |
-|------|-------------|--------|
-| 🏠 Vue Générale | KPIs globaux, répartition Films/Séries, évolution des ajouts | ![Vue Générale](images/1-Vue_Générale.png) |
-| 📊 Catalogue & Évolution | Ajouts annuels, saisonnalité, durées, croissance cumulée | ![Catalogue](images/2-Catalogue___Évolution.png) |
-| 🌍 Géographie & Diversité | Carte mondiale, top pays producteurs, US vs International | ![Géographie](images/3-Géographie___Diversité.png) |
-| 🎭 Genres & Ratings | Top genres, répartition ratings, heatmap, évolution temporelle | ![Genres](images/4-Genres___Ratings.png) |
+ 
+### 🏠 Vue Générale — KPIs globaux, répartition Films/Séries, évolution des ajouts
+![Vue Générale](images/1-Vue_Générale.png)
+ 
+---
+ 
+### 📊 Catalogue & Évolution — Ajouts annuels, saisonnalité, durées, croissance cumulée
+![Catalogue & Évolution](images/2-Catalogue_Évolution.png)
+ 
+---
+ 
+### 🌍 Géographie & Diversité — Carte mondiale, top pays producteurs, US vs International
+![Géographie & Diversité](images/3-Géographie_Diversité.png)
+ 
+---
+ 
+### 🎭 Genres & Ratings — Top genres, répartition ratings, heatmap, évolution temporelle
+![Genres & Ratings](images/4-Genres_Ratings.png)
+ 
 
 ---
 
